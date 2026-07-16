@@ -243,5 +243,50 @@ export const projectsData = [
         ]
       }
     ]
+  },
+  {
+    slug: "oak-smoke",
+    title: "Oak & Smoke Landing Page & Reservation System",
+    category: "UI/UX Design & Brand Strategy",
+    year: "2026",
+    thumbnail: "/oak&smoke/Landing.png",
+    overview: "A comprehensive digital landing page and reservation system designed for Oak & Smoke, a modern woodfire Asian grill in Salcedo Village, Makati. Finding that they lacked a dedicated website and relied solely on social media and Linktree, I designed a tailored web presence that captures their moody, smoky aesthetic while introducing a seamless booking flow to replace manual reservations.",
+    role: "UI/UX Designer",
+    timeline: "1 month (Ongoing)",
+    technologies: ["Figma", "Branding", "Interactive Prototyping", "Reservation System Design"],
+    problem: "Oak & Smoke has a strong social media presence and high-quality visuals on Instagram, but lacks a centralized, branded website. Potential diners have to navigate external linktrees to view menus and make reservations via manual messaging, creating friction. Additionally, their unique 'modern Asian woodfire' culinary identity and social-dining vibe are not unified into a cohesive, high-end online experience.",
+    solution: "I designed a moody, atmospheric landing page that mirrors their physical restaurant's woodfire vibe, featuring smoke-inspired visuals and high-fidelity photography grids. The website integrates a streamlined booking/reservation engine, interactive menus showcasing signature dishes and craft cocktails, and a dedicated portal for private dining events. This sets the stage for upcoming React/Next.js development.",
+    sections: [
+      {
+        title: "01. Editorial Landing Page & Brand Aesthetic",
+        description: "The homepage establishes Oak & Smoke's brand identity online. Utilizing a rich, dark aesthetic inspired by their open-flame kitchen, charcoal smoke, and Makati Salcedo Village location, the interface uses elegant serif headings and high-contrast photography of their open grill.",
+        images: [
+          "/oak&smoke/Landing.png"
+        ]
+      },
+      {
+        title: "02. Woodfire Menu & Signature Dishes",
+        description: "Showcasing the culinary vision of Chefs Anna Bautista and Sean Jorgensen. The design presents signature items like Hamachi Collar and Slow-braised Beef Short Ribs using an asymmetric layout that balances negative space with raw food photography.",
+        images: [
+          "/oak&smoke/Signature Dishes.png",
+          "/oak&smoke/Menu - Cold.png"
+        ]
+      },
+      {
+        title: "03. Craft Cocktail & Dining Experience",
+        description: "Highlighting Oak & Smoke's vibrant after-work drink culture. This section features their curated craft cocktail program with dedicated imagery and tasting note breakdowns, encouraging users to explore the bar offerings alongside the atmospheric indoor/outdoor garden dining areas.",
+        images: [
+          "/oak&smoke/Signature Cocktails.png",
+          "/oak&smoke/Experience.png"
+        ]
+      },
+      {
+        title: "04. Private Events & Booking Engine",
+        description: "Solving the operational bottleneck of manual reservations. I designed an intuitive booking flow for both standard table reservations and private room rentals, allowing guests to view real-time availability and select consumables.",
+        images: [
+          "/oak&smoke/Private Events.png"
+        ]
+      }
+    ]
   }
 ];
